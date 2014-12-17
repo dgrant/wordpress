@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Displace\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-08 21:58+0400\n"
+"PO-Revision-Date: 2013-09-08 21:59+0400\n"
+"Last-Translator: awesome <awsm110@gmail.com>\n"
+"Language-Team: awesome <awsm110@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e;_x;_n:1,2;_ex;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: D:\\wamp\\www\\wp\\wp-content\\themes\\displace\n"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:20
+#, php-format
+msgid "Category: %s"
+msgstr "Рубрика: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:23
+#, php-format
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:38
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:41
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:44
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Архив за год: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/archive.php:47
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:54
+msgid "Archives"
+msgstr "Архивы"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/attachment.php:33
+#: D:\wamp\www\wp\wp-content\themes\displace/audio.php:35
+#: D:\wamp\www\wp\wp-content\themes\displace/content-gallery.php:32
+#: D:\wamp\www\wp\wp-content\themes\displace/content-image.php:12
+#: D:\wamp\www\wp\wp-content\themes\displace/content-page.php:22
+#: D:\wamp\www\wp\wp-content\themes\displace/content.php:31
+#: D:\wamp\www\wp\wp-content\themes\displace/image.php:33
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:41
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/attachment.php:46
+#: D:\wamp\www\wp\wp-content\themes\displace/audio.php:50
+#: D:\wamp\www\wp\wp-content\themes\displace/image.php:54
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:65
+msgid "(no title)"
+msgstr "(без названия)"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/attachment.php:48
+#: D:\wamp\www\wp\wp-content\themes\displace/audio.php:52
+#: D:\wamp\www\wp\wp-content\themes\displace/image.php:56
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:67
+#, php-format
+msgid "Attached to <a href=\"%1$s\" title=\"Return to %2$s\">%3$s</a>"
+msgstr "Прикреплен к <a href=\"%1$s\" title=\"Вернуться к %2$s\">%3$s</a>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/attachment.php:55
+#: D:\wamp\www\wp\wp-content\themes\displace/audio.php:59
+#: D:\wamp\www\wp\wp-content\themes\displace/content-gallery.php:56
+#: D:\wamp\www\wp\wp-content\themes\displace/content-image.php:45
+#: D:\wamp\www\wp\wp-content\themes\displace/content-page.php:23
+#: D:\wamp\www\wp\wp-content\themes\displace/content.php:55
+#: D:\wamp\www\wp\wp-content\themes\displace/image.php:63
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:74
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:38
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:65
+msgid "Edit"
+msgstr "Редактировать"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:29
+#, php-format
+msgid "%1$s thought on %2$s"
+msgid_plural "%1$s thoughts on %2$s"
+msgstr[0] "%1$s отзыв на %2$s"
+msgstr[1] "%1$s отзыва на %2$s"
+msgstr[2] "%1$s отзывов на %2$s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:32
+msgid "Thoughts"
+msgstr "Отзывы"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:39
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:51
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:40
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:52
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:41
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:63
+msgid "Comments are closed"
+msgstr "Комментарии закрыты"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:74
+msgid "Your comment"
+msgstr "Ваш комментарий"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:75
+msgid "Leave a Reply"
+msgstr "Ответить"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:76
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ответить %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:77
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:78
+msgid "Send"
+msgstr "Отправить"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:83
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:85
+msgid "Name"
+msgstr "Имя"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:90
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:92
+msgid "Email"
+msgstr "Почта"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:97
+#: D:\wamp\www\wp\wp-content\themes\displace/comments.php:98
+msgid "Website"
+msgstr "Сайт"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/content-gallery.php:18
+#: D:\wamp\www\wp\wp-content\themes\displace/content-image.php:24
+#: D:\wamp\www\wp\wp-content\themes\displace/content.php:18
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:84
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:189
+#, php-format
+msgid "Permalink to %s"
+msgstr "Прямая ссылка на %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/content-gallery.php:31
+#: D:\wamp\www\wp\wp-content\themes\displace/content-image.php:11
+#: D:\wamp\www\wp\wp-content\themes\displace/content.php:30
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/content-gallery.php:44
+#: D:\wamp\www\wp\wp-content\themes\displace/content-image.php:33
+#: D:\wamp\www\wp\wp-content\themes\displace/content.php:41
+msgid "Featured"
+msgstr "Избранное"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/footer.php:14
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Работает на %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/footer.php:16
+#, php-format
+msgid "%1$s theme by %2$s"
+msgstr "Тема %1$s от %2$s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/footer.php:16
+msgid "Anton Kulakov"
+msgstr "Антон Кулаков"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/functions.php:81
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/functions.php:128
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/functions.php:157
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/header.php:55
+msgid "Menu"
+msgstr "Меню"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/header.php:56
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/image.php:45
+#, php-format
+msgid ""
+"Full resolution: <a href=\"%1$s\" title=\"Link to full-size image\">%2$s "
+"&times; %3$s</a>"
+msgstr ""
+"Полное разрешение: <a href=\"%1$s\" title=\"Ссылка на полноразмерное "
+"изображение\">%2$s &times; %3$s</a>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:16
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Такая страница не найдена."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:34
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но по заданному запросу ничего не найдено. Попробуйте еще раз с "
+"другими ключевыми словами."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:38
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Похоже что по этому адресу ничего не найдено. Может попробуете поиск, или "
+"одну из ссылок ниже?"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:47
+msgid "Categories"
+msgstr "Рубрики"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/no-results.php:62
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Похоже что мы не можем найти то что вам нужно. Возможно вам поможет поиск."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/sidebar.php:18
+msgid "Meta"
+msgstr "Мета"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:53
+#, php-format
+msgid "Video resolution: <b>%1$s &times; %2$s</b>"
+msgstr "Разрешение видео: <b>%1$s &times; %2$s</b>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:58
+msgid "MB"
+msgstr "МБ"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/video.php:60
+#, php-format
+msgid "File size: <b>%1$s</b>"
+msgstr "Размер файла: <b>%1$s</b>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:17
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:38
+msgid "Pingback"
+msgstr "Уведомление"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:52
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:59
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:81
+#, php-format
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:84
+msgid "Permalink to post"
+msgstr "Прямая ссылка на запись"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:97
+#, php-format
+msgid ""
+"By <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title="
+"\"%2$s\" rel=\"author\">%3$s</a></span>"
+msgstr ""
+"Автор <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title="
+"\"%2$s\" rel=\"author\">%3$s</a></span>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:99
+#, php-format
+msgid "View all posts by %s"
+msgstr "Все записи %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:116
+#, php-format
+msgid "Comment on %s"
+msgstr "Прокомментировать запись %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:116
+msgid "Comment on post"
+msgstr "Прокомментировать запись"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:117
+#, php-format
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s комментарий"
+msgstr[1] "%1$s комментария"
+msgstr[2] "%1$s комментариев"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:117
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:171
+#, php-format
+msgid "View all posts in %s"
+msgstr "Все записи в рубрике %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:299
+msgid "<span class=\"meta-nav\">&larr;</span> Previous attachment"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущий медиафайл"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:300
+msgid "Next attachment <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующий медиафайл <span class=\"meta-nav\">&rarr;</span>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:318
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:334
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые записи"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/template-tags.php:338
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:36
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:154
+msgid "Full width background"
+msgstr "Фоновое изображение в полную ширину"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:38
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:135
+msgid "Overlay"
+msgstr "Фоновый слой"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:65
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:66
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:104
+#, php-format
+msgid "%s Theme Options"
+msgstr "Настройки темы %s"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:194
+msgid "On"
+msgstr "Вкл."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:198
+msgid "Off"
+msgstr "Выкл."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:214
+msgid "Dark"
+msgstr "Темный"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:218
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:235
+msgid "Make the background image cover whole browser window"
+msgstr "Сделать так, чтобы фоновое изображение заполняло окно браузера"
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:237
+#, php-format
+msgid "Set a <a href=\"%s\">custom background</a> first."
+msgstr "Сначала установите <a href=\"%s\">фоновое изображение</a>."
+
+#: D:\wamp\www\wp\wp-content\themes\displace/inc/theme-options.php:239
+msgid "Try this feature with big beautiful images! Not suited for patterns."
+msgstr ""
+"Попробуйте эту настройку с большими красивыми картинками! Не подходит для "
+"узоров."

@@ -1,0 +1,413 @@
+/*
+Theme Name: Displace
+Description: Used to style the TinyMCE editor.
+*/
+
+/* =Roboto Slab font
+----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300&subset=latin,cyrillic);
+
+/* =Reset
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+main, article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video, textarea, input {
+	margin: 0;
+	outline: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	-moz-box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	background: transparent;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+main,
+section,
+form {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote, q {
+	quotes: "\00AB" "\00BB";
+}
+a:focus {
+	outline: 0;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+::selection {
+	color: #fff;
+	background-color: #1d2024;
+	text-shadow: none;
+}
+::-moz-selection {
+	color: #fff;
+	background-color: #1d2024;
+	text-shadow: none;
+}
+html {
+	box-shadow: none;
+}
+body {
+	max-width: 820px;
+	padding: 15px 20px;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #222222;
+}
+body.post-format-standard {
+	max-width: 580px;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+	letter-spacing: -0.015em;
+	color: #000000;
+}
+h1 {
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 32px;
+	margin-bottom: 12px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 26px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 22px;
+}
+h5 {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+ul ul,
+ol ul {
+	list-style: square;
+}
+ul ul ul,
+ul ol ul,
+ol ul ul {
+	list-style: circle;
+}
+ol ol,
+ul ol {
+	list-style: lower-latin;
+}
+ol ol ol,
+ol ul ol,
+ul ol ol {
+	list-style: lower-roman;
+}
+dt {
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+dd {
+	margin: 0 20px 20px;
+}
+b, strong {
+	font-weight: bold;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+address {
+	margin: 0 0 20px;
+}
+code, pre, kbd, tt, var {
+	font-family: Monaco, Consolas, monospace;
+	font-size: 13px;
+	color: #000;
+}
+pre {
+	max-width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	overflow: auto;
+	line-height: 20px;
+	font-size: 12px;
+	background: #e5e5e5;
+}
+abbr, acronym {
+	border-bottom: 1px dotted rgba(100,100,100,0.5);
+	cursor: help;
+}
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+small {
+	font-size: 75%;
+}
+big {
+	font-size: 125%;
+}
+figure {
+	margin: 0;
+}
+table {
+	width: 100%;
+}
+th {
+	font-weight: bold;
+}
+label {
+	cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+	display: inline-block;
+	margin: 0;
+	border: none;
+	line-height: 20px;
+	vertical-align: baseline;
+	color: #000;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+}
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+	padding: 5px 15px;
+	color: #fff;
+	background-color: #0bb6e5;
+	background-image: linear-gradient(to bottom, #0b92e6, #0bc8e6);
+	border-radius: 1px;
+	cursor: pointer;
+	-webkit-appearance: button;
+	font-weight: 700;
+}
+button:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
+	background-color: #0cc0f2;
+	background-image: linear-gradient(to bottom, #0c9af2, #0cd4f2);
+}
+button:active,
+input[type=button]:active,
+input[type=reset]:active,
+input[type=submit]:active {
+	background-color: #0bacd9;
+	background-image: linear-gradient(to bottom, #0b8ad9, #0bbdd9);
+}
+input[type=checkbox],
+input[type=radio] {
+	margin-right: 1px;
+	box-sizing: border-box;
+	vertical-align: -1px;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=search],
+input[type=password],
+textarea,
+select {
+	max-width: 100%;
+	min-height: 20px;
+	padding: 5px;
+	color: #404040;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+input[type=text]:hover,
+input[type=url]:hover,
+input[type=email]:hover,
+input[type=search]:hover,
+input[type=password]:hover,
+textarea:hover,
+input[type=text]:focus,
+input[type=url]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=password]:focus,
+textarea:focus {
+	color: #000;
+}
+textarea {
+	display: block;
+	min-height: 20px;
+	overflow: auto;
+	vertical-align: top;
+	resize: vertical;
+	border-radius: 1px;
+}
+p {
+	margin-bottom: 20px;
+}
+a,
+a:visited {
+	color: #086199;
+	border-bottom: 1px solid rgba(8,97,153,0.35);
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: #0b92e5;
+	border-bottom-color: #0b92e5;
+}
+a:active {
+	color: #054166;
+	border-bottom-color: #054166;
+}
+a {
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	transition: all .2s ease;
+}
+img,
+.wp-caption {
+	max-width: 100%;
+	height: auto;
+}
+.wp-caption {
+	display: block;
+}
+.wp-caption a {
+	border-bottom: 0;
+}
+ul, ol {
+	margin: 0 0 20px 20px;
+	padding: 0;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin: 5px 0 5px 15px;
+}
+li {
+	margin-bottom: 5px;
+}
+table.mceItemTable {
+	margin: 0 0 20px;
+	border-collapse: collapse;
+	border: 0;
+}
+table.mceItemTable th,
+table.mceItemTable td,
+table.mceItemTable caption {
+	font-weight: normal;
+	text-align: left;
+	padding: 7px 10px 8px 0;
+	border: 0;
+	border-bottom: 1px dotted #d9d9d9;
+}
+table.mceItemTable tr:last-child td {
+	border-bottom: 0;
+}
+table.mceItemTable th {
+	color: #404040;
+	text-transform: uppercase;
+}
+blockquote {
+	background-color: #eaeaea;
+	border-left: 4px solid #d9d9d9;
+	padding: 15px 20px 0 20px;
+	margin: 0 0 20px 0;
+}
+blockquote > * {
+	margin-bottom: 0;
+	padding-bottom: 15px
+}
+blockquote cite {
+	display: block;
+	margin-top: 10px;
+	color: #333;
+	font-size: 12px;
+}
+.post-format-image p {
+	margin-bottom: 10px;
+}
+.post-format-aside,
+.post-format-aside p {
+	line-height: 26px;
+	font-weight: 300;
+	font-size: 17px;
+}
+.post-format-link,
+.post-format-link p {
+	line-height: 30px;
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.post-format-link p {
+	margin-bottom: 15px;
+}
+.post-format-link a {
+	border-bottom-width: 2px !important;
+}
