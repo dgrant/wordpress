@@ -434,6 +434,21 @@ class wfConfig {
 			self::set('other_scanOutside', 0);
 		}
 	}
+	public static function getExportableOptionsKeys(){
+		$ret = array();
+		foreach(self::$securityLevels[2]['checkboxes'] as $key => $val){
+			$ret[] = $key;
+		}
+		foreach(self::$securityLevels[2]['otherParams'] as $key => $val){
+			if($key != 'apiKey'){
+				$ret[] = $key;
+			}
+		}
+		foreach(array('cbl_action', 'cbl_countries', 'cbl_redirURL', 'cbl_loggedInBlocked', 'cbl_loginFormBlocked', 'cbl_restOfSiteBlocked', 'cbl_bypassRedirURL', 'cbl_bypassRedirDest', 'cbl_bypassViewURL') as $key){
+			$ret[] = $key;
+		}
+		return $ret;
+	}
 	public static function parseOptions(){
 		$ret = array();
 		foreach(self::$securityLevels[2]['checkboxes'] as $key => $val){ //value is not used. We just need the keys for validation
@@ -464,7 +479,7 @@ class wfConfig {
 		self::$cache = array();
 	}
 	public static function getHTML($key){
-		return htmlspecialchars(self::get($key));
+		return wp_kses(self::get($key), array());
 	}
 	public static function inc($key){
 		$val = self::get($key, false);
@@ -751,6 +766,21 @@ class wfConfig {
 	}
 	public static function autoUpdate(){
 		try {
+			if(getenv('noabort') != '1' && stristr($_SERVER['SERVER_SOFTWARE'], 'litespeed') !== false){
+				$lastEmail = self::get('lastLiteSpdEmail', false);
+				if( (! $lastEmail) || (time() - (int)$lastEmail > (86400 * 30))){
+					self::set('lastLiteSpdEmail', time());
+					 wordfence::alert("Wordfence Upgrade not run. Please modify your .htaccess", "To preserve the integrity of your website we are not running Wordfence auto-update.\n" .
+						"You are running the LiteSpeed web server which has been known to cause a problem with Wordfence auto-update.\n" .
+						"Please go to your website now and make a minor change to your .htaccess to fix this.\n" .
+						"You can find out how to make this change at:\n" .
+						"https://support.wordfence.com/solution/articles/1000129050-running-wordfence-under-litespeed-web-server-and-preventing-process-killing-or\n" .
+						"\nAlternatively you can disable auto-update on your website to stop receiving this message and upgrade Wordfence manually.\n",
+						'127.0.0.1'
+						);
+				}
+				return;
+			}
 			require_once(ABSPATH . 'wp-admin/includes/class-wp-upgrader.php');
 			require_once(ABSPATH . 'wp-admin/includes/misc.php');
 			/* We were creating show_message here so that WP did not write to STDOUT. This had the strange effect of throwing an error about redeclaring show_message function, but only when a crawler hit the site and triggered the cron job. Not a human. So we're now just require'ing misc.php which does generate output, but that's OK because it is a loopback cron request.  
