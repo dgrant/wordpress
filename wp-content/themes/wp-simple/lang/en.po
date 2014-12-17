@@ -1,0 +1,1935 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Simple\n"
+"POT-Creation-Date: 2014-08-07 14:27-0600\n"
+"PO-Revision-Date: 2014-08-07 14:27-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:4
+msgid "Comments"
+msgstr ""
+
+#: comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:18
+msgid "Reply"
+msgstr ""
+
+#: comments.php:47
+msgid "Be the first to comment."
+msgstr ""
+
+#: comments.php:63 functions.php:369
+msgid "Name"
+msgstr ""
+
+#: comments.php:64 functions.php:370
+msgid "Email"
+msgstr ""
+
+#: comments.php:65 functions.php:371
+msgid "Website"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:72
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:74
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comments.php:77 functions.php:324
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:78
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:79
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:80
+msgid "Submit"
+msgstr ""
+
+#: footer.php:66
+msgid "Powered by"
+msgstr ""
+
+#: functions.php:85
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:195
+msgid "Default Page Sidebar"
+msgstr ""
+
+#: functions.php:197
+msgid "Widgets in this area will be displayed in the sidebar on the pages."
+msgstr ""
+
+#: functions.php:204
+msgid "Default Blog Sidebar"
+msgstr ""
+
+#: functions.php:206
+msgid ""
+"Widgets in this area will be displayed in the sidebar on the blog, archives, "
+"and the frontpage if the frontpage is set to show latest posts."
+msgstr ""
+
+#: functions.php:213
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:215
+msgid "Widgets in this area will be shown in the left footer column."
+msgstr ""
+
+#: functions.php:222
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:224
+msgid "Widgets in this area will be shown in the center footer column."
+msgstr ""
+
+#: functions.php:231
+msgid "Footer Right"
+msgstr ""
+
+#: functions.php:233
+msgid "Widgets in this area will be shown in the right footer column."
+msgstr ""
+
+#: functions.php:240
+msgid "Frontpage Sidebar"
+msgstr ""
+
+#: functions.php:242
+msgid ""
+"Widgets in this area will be shown on the side of the frontpage content area."
+msgstr ""
+
+#: functions.php:252
+msgid "Alternate Sidebar #"
+msgstr ""
+
+#: functions.php:254
+msgid ""
+"Widgets in this area will be displayed in the sidebar for any posts, pages "
+"or portfolio items that are taged with sidebar"
+msgstr ""
+
+#: functions.php:323
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:329
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:448 functions.php:449
+msgid "Nimbus Featured Image Options"
+msgstr ""
+
+#: functions.php:468
+msgid "There are no image options because this page is set as the Front Page"
+msgstr ""
+
+#: functions.php:474
+msgid ""
+"Remember you need to attach a Featured Image for these setting to take "
+"effect."
+msgstr ""
+
+#: functions.php:539
+msgid "Nimbus Featured Post Options"
+msgstr ""
+
+#: functions.php:556
+msgid ""
+"Setting this post as featured will cause it to display on the frontpage in "
+"the featured post location. This will only take effect if this is the most "
+"recently published featured post."
+msgstr ""
+
+#: functions.php:620
+msgid "Nimbus Frontpage Banner Panel"
+msgstr ""
+
+#: functions.php:674 functions.php:675
+msgid "Nimbus Sidebar Options"
+msgstr ""
+
+#: functions.php:691
+msgid ""
+"Enter the number of the alternate sidebar you would like to apply. Leave "
+"blank to use default."
+msgstr ""
+
+#: functions.php:693
+msgid "Sidebar #"
+msgstr ""
+
+#: nimbus/options.php:14
+msgid " Theme Options"
+msgstr ""
+
+#: nimbus/options.php:161
+msgid "Are you sure you want to reset? ALL SAVED SETTINGS WILL BE LOST!"
+msgstr ""
+
+#: nimbus/options.php:193
+msgid "Default options restored."
+msgstr ""
+
+#: nimbus/options.php:229
+msgid "Options saved."
+msgstr ""
+
+#: nimbus/options_arr.php:17 nimbus/options_arr.php:27
+msgid "Nimbus Membership"
+msgstr ""
+
+#: nimbus/options_arr.php:28
+msgid "Join Nimbus and start building awesome sites today!"
+msgstr ""
+
+#: nimbus/options_arr.php:33 nimbus/options_arr.php:86
+msgid "Upgrade Theme"
+msgstr ""
+
+#: nimbus/options_arr.php:33 nimbus/options_arr.php:86
+msgid "Get ALL Themes"
+msgstr ""
+
+#: nimbus/options_arr.php:38
+msgid "With your purchase you will get:"
+msgstr ""
+
+#: nimbus/options_arr.php:42
+msgid "Unlimited Support For Theme Features"
+msgstr ""
+
+#: nimbus/options_arr.php:43
+msgid ""
+"If you've got questions, we've got answers. It's our commitment to you that "
+"we'll provide the most positive support anywhere on the web!"
+msgstr ""
+
+#: nimbus/options_arr.php:45
+msgid "Frontpage Layouts/Slideshows"
+msgstr ""
+
+#: nimbus/options_arr.php:46
+msgid ""
+"Create your website's front page by choosing from dozens of home page layout "
+"options, including dynamic slideshows, static images, featured posts, "
+"widgets, and blog feeds. So many options means you're never stuck with a "
+"generic site! Preview some of your options:"
+msgstr ""
+
+#: nimbus/options_arr.php:47 nimbus/options_arr.php:334
+msgid "Full Width Banner: Fixed Image"
+msgstr ""
+
+#: nimbus/options_arr.php:47
+msgid "Full Width Banner: Scrolling Image"
+msgstr ""
+
+#: nimbus/options_arr.php:47 nimbus/options_arr.php:334
+msgid "Banner Image Spanning the Width of the Content Area"
+msgstr ""
+
+#: nimbus/options_arr.php:48
+msgid "Banner Image Spanning the Width of the Content Area with a Border"
+msgstr ""
+
+#: nimbus/options_arr.php:48
+msgid "Slideshow"
+msgstr ""
+
+#: nimbus/options_arr.php:48
+msgid "Full Width Banner Content No Image"
+msgstr ""
+
+#: nimbus/options_arr.php:48
+msgid "No Banner: Menu at Top of Page"
+msgstr ""
+
+#: nimbus/options_arr.php:50
+msgid "Responsive, Custom CSS Options"
+msgstr ""
+
+#: nimbus/options_arr.php:51
+msgid ""
+"Polish your site down to the minute detail with responsive, custom CSS. Your "
+"site can look different on every browser size!"
+msgstr ""
+
+#: nimbus/options_arr.php:54
+msgid "Powerful SEO Tools"
+msgstr ""
+
+#: nimbus/options_arr.php:55
+msgid ""
+"Get powerful SEO tools that give you maximum control of your theme's "
+"placement on Google. Add custom titles, descriptions and keywords to each "
+"page or choose defaults for ease of use."
+msgstr ""
+
+#: nimbus/options_arr.php:57
+msgid "Hundreds of Shortcodes"
+msgstr ""
+
+#: nimbus/options_arr.php:58
+msgid ""
+"Style your website with custom buttons, images, lists, typography, tables, "
+"columns, and more... all brought to you by our vast library of shortcodes. "
+"View all your shortcode options here:"
+msgstr ""
+
+#: nimbus/options_arr.php:58
+msgid "Simple Shortcodes"
+msgstr ""
+
+#: nimbus/options_arr.php:60
+msgid "Extended Social Media Integration"
+msgstr ""
+
+#: nimbus/options_arr.php:61
+msgid ""
+"Take advantage of additional social network integrations and increase the "
+"reach of your website."
+msgstr ""
+
+#: nimbus/options_arr.php:63
+msgid "Multiple Frontpages"
+msgstr ""
+
+#: nimbus/options_arr.php:64
+msgid ""
+"Use a custom page template to apply the frontpage layout to as many pages as "
+"you want!"
+msgstr ""
+
+#: nimbus/options_arr.php:66
+msgid "Custom Widgets"
+msgstr ""
+
+#: nimbus/options_arr.php:67
+msgid ""
+"Use custom widgets to quickly and easily populate your website with "
+"profesionally designed content."
+msgstr ""
+
+#: nimbus/options_arr.php:70
+msgid "Whitelist Dozens of MIME Types"
+msgstr ""
+
+#: nimbus/options_arr.php:71
+msgid ""
+"Stop running into those frustrating WordPress uploader errors when loading "
+"unusual file types. Choose from our long list of additional file types to "
+"whiltelist as approved."
+msgstr ""
+
+#: nimbus/options_arr.php:74
+msgid "Demo Content Loader"
+msgstr ""
+
+#: nimbus/options_arr.php:75
+msgid ""
+"Make setting up your website easy by loading demo content with the click of "
+"a button."
+msgstr ""
+
+#: nimbus/options_arr.php:78
+msgid "Additional Script Integration"
+msgstr ""
+
+#: nimbus/options_arr.php:79
+msgid ""
+"Use in-page script locations to embed buttons and widgets from your favorite "
+"third-party services."
+msgstr ""
+
+#: nimbus/options_arr.php:105
+msgid "Theme Setup"
+msgstr ""
+
+#: nimbus/options_arr.php:114
+msgid "Set Up Your "
+msgstr ""
+
+#: nimbus/options_arr.php:114
+msgid " Theme"
+msgstr ""
+
+#: nimbus/options_arr.php:115
+msgid ""
+"We realize there's a lot going on with this theme, so we've tried to make "
+"setup as simple as possible."
+msgstr ""
+
+#: nimbus/options_arr.php:116
+msgid ""
+"There are a few initial steps that will put you on track to creating the "
+"fully operational website of your dreams:"
+msgstr ""
+
+#: nimbus/options_arr.php:118 nimbus/options_arr.php:343
+#: nimbus/options_arr.php:344 nimbus/options_arr.php:345
+#: nimbus/options_arr.php:346 nimbus/options_arr.php:347
+msgid "Upgrade today!!"
+msgstr ""
+
+#: nimbus/options_arr.php:120
+msgid ""
+"If you are starting from scratch, then you'll want to load some example "
+"content by clicking the button below."
+msgstr ""
+
+#: nimbus/options_arr.php:124
+msgid "Download"
+msgstr ""
+
+#: nimbus/options_arr.php:126
+msgid ""
+"Once you've loaded the demo content, you're going to want to learn how to "
+"make changes to your website and use the Nimbus Panel. We've provided an "
+"extensive user guide PDF that you'll want to read through as you're learning "
+"your way around:"
+msgstr ""
+
+#: nimbus/options_arr.php:128 nimbus/options_arr.php:148
+msgid "Example Content"
+msgstr ""
+
+#: nimbus/options_arr.php:132
+msgid "Reminder Images"
+msgstr ""
+
+#: nimbus/options_arr.php:133
+msgid ""
+"When you're comfortable with loading featured images and working with the "
+msgstr ""
+
+#: nimbus/options_arr.php:133
+msgid " Theme, you may want to turn off all reminder images."
+msgstr ""
+
+#: nimbus/options_arr.php:138 nimbus/options_arr.php:146
+#: nimbus/options_arr.php:154
+msgid "On"
+msgstr ""
+
+#: nimbus/options_arr.php:138 nimbus/options_arr.php:146
+#: nimbus/options_arr.php:154
+msgid "Off"
+msgstr ""
+
+#: nimbus/options_arr.php:140
+msgid "Example Widgets"
+msgstr ""
+
+#: nimbus/options_arr.php:141
+msgid ""
+"When you're comfortable working with the theme, you may want to turn off all "
+"example widgets."
+msgstr ""
+
+#: nimbus/options_arr.php:149
+msgid ""
+"When you're comfortable working with the theme, you may want to turn off all "
+"example content."
+msgstr ""
+
+#: nimbus/options_arr.php:164
+msgid "General Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:173
+msgid "Menu Options"
+msgstr ""
+
+#: nimbus/options_arr.php:177
+msgid "Menu Position"
+msgstr ""
+
+#: nimbus/options_arr.php:178
+msgid "Choose the location of the main menu"
+msgstr ""
+
+#: nimbus/options_arr.php:183
+msgid "Below Banners"
+msgstr ""
+
+#: nimbus/options_arr.php:183
+msgid "Fixed Top"
+msgstr ""
+
+#: nimbus/options_arr.php:187
+msgid "Logo Options"
+msgstr ""
+
+#: nimbus/options_arr.php:192
+msgid "Image Logo"
+msgstr ""
+
+#: nimbus/options_arr.php:193
+msgid ""
+"Upload a logo image. If you have a logo, enter it here. The dimensions of "
+"the logo image you upload will be the dimensions you see on your website, so "
+"make sure it's the size you want."
+msgstr ""
+
+#: nimbus/options_arr.php:199
+msgid "Text Logo"
+msgstr ""
+
+#: nimbus/options_arr.php:200
+msgid ""
+"If no image logo is loaded, a text logo will be displayed. You can style "
+"this text logo on the <strong>Typogaphy</strong> tab."
+msgstr ""
+
+#: nimbus/options_arr.php:208
+msgid "Additional Image Options"
+msgstr ""
+
+#: nimbus/options_arr.php:213
+msgid "Favicon"
+msgstr ""
+
+#: nimbus/options_arr.php:214
+msgid "Upload a favicon image."
+msgstr ""
+
+#: nimbus/options_arr.php:221
+msgid "Default Gravatar"
+msgstr ""
+
+#: nimbus/options_arr.php:222
+msgid ""
+"There is already a default gravatar that ships with WordPress, but you can "
+"change it here. Upload a default gravatar that will be displayed when a "
+"commenter has not signed up for a personalized gravatar. After loading your "
+"new gravatar here you will then need to navigate to Setting >> Discussion >> "
+"select your new gravatar."
+msgstr ""
+
+#: nimbus/options_arr.php:231
+msgid "Copyright Options"
+msgstr ""
+
+#: nimbus/options_arr.php:236 nimbus/options_arr.php:1013
+msgid "Copyright Text"
+msgstr ""
+
+#: nimbus/options_arr.php:237
+msgid "This text wil be displayed in the footer of your website."
+msgstr ""
+
+#: nimbus/options_arr.php:253
+msgid "Contact Info"
+msgstr ""
+
+#: nimbus/options_arr.php:263
+msgid "Contact Options"
+msgstr ""
+
+#: nimbus/options_arr.php:268
+msgid "Public Phone Number"
+msgstr ""
+
+#: nimbus/options_arr.php:269
+msgid ""
+"Enter the phone number that will be displayed. Leave blank to dispay none."
+msgstr ""
+
+#: nimbus/options_arr.php:277
+msgid "Public Email"
+msgstr ""
+
+#: nimbus/options_arr.php:278
+msgid ""
+"Enter the email address that will be displayed. Leave blank to dispay none."
+msgstr ""
+
+#: nimbus/options_arr.php:286
+msgid "Public Fax"
+msgstr ""
+
+#: nimbus/options_arr.php:287
+msgid ""
+"Enter the fax number that will be displayed. Leave blank to dispay none."
+msgstr ""
+
+#: nimbus/options_arr.php:294
+msgid "Public Address"
+msgstr ""
+
+#: nimbus/options_arr.php:295
+msgid ""
+"Enter the physical address that will be displayed. Leave blank to dispay "
+"none."
+msgstr ""
+
+#: nimbus/options_arr.php:311
+msgid "Frontpage"
+msgstr ""
+
+#: nimbus/options_arr.php:321 nimbus/options_arr.php:328
+msgid "Banner Options"
+msgstr ""
+
+#: nimbus/options_arr.php:329
+msgid "Select which banner layout you would like to display on the frontpage."
+msgstr ""
+
+#: nimbus/options_arr.php:341
+msgid "Full Width Banner: Fixed Image:"
+msgstr ""
+
+#: nimbus/options_arr.php:341
+msgid ""
+"The default banner setting on your frontpage. The image stays fixed to the "
+"top of the page while the content moves over it. The image dimension must be "
+"2000x830px (you want to keep the quality low enough that your image size "
+"doesn't overwhelm a user's bandwidth, <100kb is ideal, but 2-300kb is okay. "
+"Upload your image below in Option #2 to take the place of the default Simple "
+"image. The logo will sit on top of the image. For text overlay effect, load "
+"any type of content into the Nimbus Frontpage Banner Panel in the Page "
+"you've set as \"Home\" (Settings >> Reading >> Front page displays... Static "
+"Page... Front page)."
+msgstr ""
+
+#: nimbus/options_arr.php:342
+msgid "Banner Image Spanning the Width of the Content Area:"
+msgstr ""
+
+#: nimbus/options_arr.php:342
+msgid ""
+"The image dimension is 1140x420px (the theme will resize your image to fit "
+"if necessary). Set your image as the Featured Image on the page you've set "
+"as your \\\"Front page\\\" (Settings >> Reading >> Front page displays... "
+"Static Page... Front page). <!-- The logo will sit on top of the image (if "
+"you'd prefer the logo not to be displayed, delete the Image Logo and/or Text "
+"Logo in Theme Options >> General Settings). --> There is no text overlay in "
+"this option."
+msgstr ""
+
+#: nimbus/options_arr.php:343
+msgid "Full Width Banner: Scrolling Image:"
+msgstr ""
+
+#: nimbus/options_arr.php:343 nimbus/options_arr.php:344
+#: nimbus/options_arr.php:345 nimbus/options_arr.php:346
+#: nimbus/options_arr.php:347
+msgid "This feature is available to Nimbus Themes members."
+msgstr ""
+
+#: nimbus/options_arr.php:344
+msgid "Banner Image Spanning the Width of the Content Area With a Border:"
+msgstr ""
+
+#: nimbus/options_arr.php:345
+msgid "Slideshow Spanning the Width of the Content Area:"
+msgstr ""
+
+#: nimbus/options_arr.php:346
+msgid "Full Width Banner Content: No Image:"
+msgstr ""
+
+#: nimbus/options_arr.php:347
+msgid "No Banner, Menu at the Top of the Page:"
+msgstr ""
+
+#: nimbus/options_arr.php:353
+msgid "Full Width Banner Image"
+msgstr ""
+
+#: nimbus/options_arr.php:354
+msgid "Select the Full Width banner off your desktop. It should be 2000x830px."
+msgstr ""
+
+#: nimbus/options_arr.php:363
+msgid "Featured Page Options"
+msgstr ""
+
+#: nimbus/options_arr.php:367
+msgid "Display Featured Pages"
+msgstr ""
+
+#: nimbus/options_arr.php:368
+msgid ""
+"Check here to display four featured pages under the banner on the frontpage."
+msgstr ""
+
+#: nimbus/options_arr.php:375
+msgid "Left Feature Column"
+msgstr ""
+
+#: nimbus/options_arr.php:376
+msgid ""
+"Set the page to display in the left feature column on the frontpage. "
+"Remember to set a featured image for this page if you want one to appear."
+msgstr ""
+
+#: nimbus/options_arr.php:383
+msgid "Center Left Feature Column"
+msgstr ""
+
+#: nimbus/options_arr.php:384
+msgid ""
+"Set the page to display in the center left feature column on the frontpage. "
+"Remember to set a featured image for this page if you want one to appear."
+msgstr ""
+
+#: nimbus/options_arr.php:391
+msgid "Center Right Feature Column"
+msgstr ""
+
+#: nimbus/options_arr.php:392
+msgid ""
+"Set the page to display in the center right feature column on the frontpage. "
+"Remember to set a featured image for this page if you want one to appear."
+msgstr ""
+
+#: nimbus/options_arr.php:399
+msgid "Right Feature Column"
+msgstr ""
+
+#: nimbus/options_arr.php:400
+msgid ""
+"Set the page to display in the right feature column on the frontpage. "
+"Remember to set a featured image for this page if you want one to appear."
+msgstr ""
+
+#: nimbus/options_arr.php:409
+msgid "Content Area Options"
+msgstr ""
+
+#: nimbus/options_arr.php:413
+msgid "Display Content Position"
+msgstr ""
+
+#: nimbus/options_arr.php:414
+msgid ""
+"Select where you would like to display content on the frontpage. This "
+"content is being pulled from the page you've designated as \"Frontpage"
+"\" (often your Home page) in the settings at Settings >> Reading."
+msgstr ""
+
+#: nimbus/options_arr.php:419
+msgid "Below Featured Pages"
+msgstr ""
+
+#: nimbus/options_arr.php:419
+msgid "Above Featured Pages"
+msgstr ""
+
+#: nimbus/options_arr.php:419
+msgid "Don't Display Content"
+msgstr ""
+
+#: nimbus/options_arr.php:421
+msgid "Display Content Sidebar"
+msgstr ""
+
+#: nimbus/options_arr.php:422
+msgid "Choose to display a sidebar on the frontpage or full width"
+msgstr ""
+
+#: nimbus/options_arr.php:427
+msgid "Display a sidebar"
+msgstr ""
+
+#: nimbus/options_arr.php:427
+msgid "Display content full width"
+msgstr ""
+
+#: nimbus/options_arr.php:432
+msgid "Blog Row Options"
+msgstr ""
+
+#: nimbus/options_arr.php:436
+msgid "Display Blog Row"
+msgstr ""
+
+#: nimbus/options_arr.php:437
+msgid "Check here to display the custom blog row"
+msgstr ""
+
+#: nimbus/options_arr.php:444
+msgid "Number of Posts on the Home page"
+msgstr ""
+
+#: nimbus/options_arr.php:445
+msgid ""
+"Set the number of posts you would like to be visible on the home page in "
+"addition to the featured article."
+msgstr ""
+
+#: nimbus/options_arr.php:460
+msgid "Blog"
+msgstr ""
+
+#: nimbus/options_arr.php:469
+msgid "Blog Options"
+msgstr ""
+
+#: nimbus/options_arr.php:473
+msgid "Number of Posts on the Blog"
+msgstr ""
+
+#: nimbus/options_arr.php:474
+msgid ""
+"Set the number of posts you would like to be visible on the Blog, Archives, "
+"Tags and other blog-related pages."
+msgstr ""
+
+#: nimbus/options_arr.php:480
+msgid "Display Meta Information on Posts"
+msgstr ""
+
+#: nimbus/options_arr.php:481
+msgid ""
+"Select the folllowing information you would like to have displayed on post "
+"pages."
+msgstr ""
+
+#: nimbus/options_arr.php:488
+msgid "Display Meta Information on Blog and Archive"
+msgstr ""
+
+#: nimbus/options_arr.php:489
+msgid ""
+"Select the folllowing information you would like to have displayed on blog "
+"and archive pages."
+msgstr ""
+
+#: nimbus/options_arr.php:496
+msgid "Display Author Bio"
+msgstr ""
+
+#: nimbus/options_arr.php:497
+msgid "Select to display the author's bio at the bottom of the post."
+msgstr ""
+
+#: nimbus/options_arr.php:513
+msgid "Design"
+msgstr ""
+
+#: nimbus/options_arr.php:522
+msgid "Design Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:526
+msgid "Body Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:527
+msgid "Set the background color for your website."
+msgstr ""
+
+#: nimbus/options_arr.php:535
+msgid "Menu Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:539
+msgid "Menu Row Backgound Color"
+msgstr ""
+
+#: nimbus/options_arr.php:540 nimbus/options_arr.php:561
+msgid "Set the background color for the dropdown menus."
+msgstr ""
+
+#: nimbus/options_arr.php:546
+msgid "Menu Row Item Active Color"
+msgstr ""
+
+#: nimbus/options_arr.php:547
+msgid "Set the background color for items that are active."
+msgstr ""
+
+#: nimbus/options_arr.php:553
+msgid "Menu Row Item Hover Color"
+msgstr ""
+
+#: nimbus/options_arr.php:554
+msgid "Set the background color for items that are hovered over."
+msgstr ""
+
+#: nimbus/options_arr.php:560
+msgid "Dropdown Menu Backgound Color"
+msgstr ""
+
+#: nimbus/options_arr.php:567
+msgid "Dropdown Menu Box Shadow Color"
+msgstr ""
+
+#: nimbus/options_arr.php:568
+msgid "Set the box-shadow color for the dropdown menus."
+msgstr ""
+
+#: nimbus/options_arr.php:574
+msgid "Dropdown Menu Item Hover Backgound Color"
+msgstr ""
+
+#: nimbus/options_arr.php:575
+msgid "Set the background color for the dropdown menu items on hover."
+msgstr ""
+
+#: nimbus/options_arr.php:581
+msgid "Dropdown Menu Item Bottom Border Color"
+msgstr ""
+
+#: nimbus/options_arr.php:582
+msgid ""
+"Set the bottom border color for the dropdown menu items on hover. This is "
+"the dotted line at the bottom of each item in the dropdown menu."
+msgstr ""
+
+#: nimbus/options_arr.php:588
+msgid "Mobile Dropdown Menu Toggle Color"
+msgstr ""
+
+#: nimbus/options_arr.php:589
+msgid "Set the background color for the toggle button in the mobile menu."
+msgstr ""
+
+#: nimbus/options_arr.php:595
+msgid "Mobile Dropdown Menu Toggle Border Color"
+msgstr ""
+
+#: nimbus/options_arr.php:596
+msgid "Set the border color for the toggle button in the mobile menu."
+msgstr ""
+
+#: nimbus/options_arr.php:602
+msgid "Mobile Dropdown Menu Toggle Detail Color"
+msgstr ""
+
+#: nimbus/options_arr.php:603
+msgid "Set the detail color for the toggle button in the mobile menu."
+msgstr ""
+
+#: nimbus/options_arr.php:611
+msgid "Banner Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:615
+msgid "Frontpage Banner Border Color (if applicable)"
+msgstr ""
+
+#: nimbus/options_arr.php:616
+msgid "Set the border color for the frontpage banner."
+msgstr ""
+
+#: nimbus/options_arr.php:622
+msgid "Frontpage Banner Padding Color (if applicable)"
+msgstr ""
+
+#: nimbus/options_arr.php:623
+msgid "Set the inner border color for the frontpage banner."
+msgstr ""
+
+#: nimbus/options_arr.php:631
+msgid "Frontpage Row Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:635
+msgid "Frontpage Featured Items Row Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:636
+msgid "Set the backgound color for the frontpage featured items row."
+msgstr ""
+
+#: nimbus/options_arr.php:642
+msgid "Frontpage Content Row Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:643
+msgid "Set the backgound color for the frontpage content row."
+msgstr ""
+
+#: nimbus/options_arr.php:649
+msgid "Frontpage Content Row Sidebar Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:650
+msgid "Set the backgound color for the frontpage content row sidebar."
+msgstr ""
+
+#: nimbus/options_arr.php:656
+msgid "Frontpage Blog Row Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:657
+msgid "Set the backgound color for the frontpage blog row."
+msgstr ""
+
+#: nimbus/options_arr.php:665
+msgid "Blog Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:669
+msgid "Blog Item Bottom Border Color"
+msgstr ""
+
+#: nimbus/options_arr.php:670
+msgid ""
+"Set the bottom border color for the small blog items, the category row, and "
+"other blog related features."
+msgstr ""
+
+#: nimbus/options_arr.php:676
+msgid "Blog Item Bottom Border Type"
+msgstr ""
+
+#: nimbus/options_arr.php:677
+msgid ""
+"Set the boder type for the small blog items, the category row, and other "
+"blog related features"
+msgstr ""
+
+#: nimbus/options_arr.php:686
+msgid "Widget and Sidebar Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:690
+msgid "Widget Title Bottom Border Color"
+msgstr ""
+
+#: nimbus/options_arr.php:691
+msgid "Set the bottom border color for the widget titles."
+msgstr ""
+
+#: nimbus/options_arr.php:697
+msgid "Widget Title Bottom Border Type"
+msgstr ""
+
+#: nimbus/options_arr.php:698
+msgid "Set the boder type for the widget titles"
+msgstr ""
+
+#: nimbus/options_arr.php:707
+msgid "Footer Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:711
+msgid "Footer Row Background Color"
+msgstr ""
+
+#: nimbus/options_arr.php:712
+msgid "Set the backgound color for the footer row."
+msgstr ""
+
+#: nimbus/options_arr.php:720
+msgid "Blockquote Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:724
+msgid "Blockquote Left Border Color"
+msgstr ""
+
+#: nimbus/options_arr.php:725
+msgid "Set the left border color for the blockquote element."
+msgstr ""
+
+#: nimbus/options_arr.php:734
+msgid "Button and Shortcode Appearance Options"
+msgstr ""
+
+#: nimbus/options_arr.php:739
+msgid "Button Colors"
+msgstr ""
+
+#: nimbus/options_arr.php:740
+msgid ""
+"Set the default button colors to use across website. Check out our "
+"shortcodes for limitless color and appearance options. See Shortcodes tab."
+msgstr ""
+
+#: nimbus/options_arr.php:764
+msgid "Typography"
+msgstr ""
+
+#: nimbus/options_arr.php:773
+msgid "Body Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:777
+msgid "Body Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:778
+msgid ""
+"Set <strong>Body</strong> font style. This is the default font that will be "
+"used in most instances on your website."
+msgstr ""
+
+#: nimbus/options_arr.php:786
+msgid "Link Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:790
+msgid "Link Color"
+msgstr ""
+
+#: nimbus/options_arr.php:791
+msgid "Set the default link color."
+msgstr ""
+
+#: nimbus/options_arr.php:797
+msgid "Link Hover Color"
+msgstr ""
+
+#: nimbus/options_arr.php:798
+msgid "Set link hover color."
+msgstr ""
+
+#: nimbus/options_arr.php:806
+msgid "Logo Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:810
+msgid "Default Logo Typography"
+msgstr ""
+
+#: nimbus/options_arr.php:811
+msgid ""
+"Set typography preferences for the text logo that is displayed when no image "
+"logo exists."
+msgstr ""
+
+#: nimbus/options_arr.php:817
+msgid "Default Logo Text-Shadow Color"
+msgstr ""
+
+#: nimbus/options_arr.php:818
+msgid "Set text logo text-shadow color."
+msgstr ""
+
+#: nimbus/options_arr.php:826
+msgid "Navigation Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:830
+msgid "Navigation Font"
+msgstr ""
+
+#: nimbus/options_arr.php:831
+msgid "Set the navigation menu font style"
+msgstr ""
+
+#: nimbus/options_arr.php:837
+msgid "Sub Navigation Font"
+msgstr ""
+
+#: nimbus/options_arr.php:838
+msgid "Set the sub navigation menu font style"
+msgstr ""
+
+#: nimbus/options_arr.php:846
+msgid "Title Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:850
+msgid "H1 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:851
+msgid "Set H1 style."
+msgstr ""
+
+#: nimbus/options_arr.php:857
+msgid "H2 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:858
+msgid "Set H2 style."
+msgstr ""
+
+#: nimbus/options_arr.php:864
+msgid "H3 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:865
+msgid "Set H3 style."
+msgstr ""
+
+#: nimbus/options_arr.php:871
+msgid "H4 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:872
+msgid "Set H4 style."
+msgstr ""
+
+#: nimbus/options_arr.php:878
+msgid "H5 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:879
+msgid "Set H5 style."
+msgstr ""
+
+#: nimbus/options_arr.php:885
+msgid "H6 Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:886
+msgid "Set H6 style."
+msgstr ""
+
+#: nimbus/options_arr.php:892
+msgid "Sidebar/Footer Widget Titles"
+msgstr ""
+
+#: nimbus/options_arr.php:893
+msgid "Set the default font that will be used on sidebar titles."
+msgstr ""
+
+#: nimbus/options_arr.php:901
+msgid "Blog Element Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:905
+msgid "Blog Meta Style"
+msgstr ""
+
+#: nimbus/options_arr.php:906
+msgid ""
+"Set the typographic style for the blog meta line that includes the author "
+"and date as well as the categories row."
+msgstr ""
+
+#: nimbus/options_arr.php:912
+msgid "Author Bio Style"
+msgstr ""
+
+#: nimbus/options_arr.php:913
+msgid ""
+"Set the typographic style for the description text in the author bio box"
+msgstr ""
+
+#: nimbus/options_arr.php:919
+msgid "Excerpt Font"
+msgstr ""
+
+#: nimbus/options_arr.php:920
+msgid "Set the excerpt font style"
+msgstr ""
+
+#: nimbus/options_arr.php:928
+msgid "Blockquote and Pullquote Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:932
+msgid "Blockquote Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:933
+msgid ""
+"Set blockquote tag style and the typographic style for the [nimbus_quote] "
+"shortcode."
+msgstr ""
+
+#: nimbus/options_arr.php:939
+msgid "Pullquote Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:940
+msgid ""
+"Set typographic style for the [nimbus_pullquote_left] and "
+"[nimbus_pullquote_right] shortcodes."
+msgstr ""
+
+#: nimbus/options_arr.php:948
+msgid "Code Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:952
+msgid "Code/Pre Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:953
+msgid "Set Code/Pre style."
+msgstr ""
+
+#: nimbus/options_arr.php:961
+msgid "Table Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:965
+msgid "TH Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:966
+msgid "Set TH (Table Heading) style."
+msgstr ""
+
+#: nimbus/options_arr.php:972
+msgid "TD Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:973
+msgid "Set TD (Table Data) style."
+msgstr ""
+
+#: nimbus/options_arr.php:979
+msgid "Table Caption Settings"
+msgstr ""
+
+#: nimbus/options_arr.php:980
+msgid "Set Table Caption style."
+msgstr ""
+
+#: nimbus/options_arr.php:988
+msgid "Sidebar Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:992
+msgid "Sidebar Text"
+msgstr ""
+
+#: nimbus/options_arr.php:993
+msgid "Set the default font that will be used for sidebar text."
+msgstr ""
+
+#: nimbus/options_arr.php:1002
+msgid "Footer Typography Options"
+msgstr ""
+
+#: nimbus/options_arr.php:1006
+msgid "Footer Text"
+msgstr ""
+
+#: nimbus/options_arr.php:1007
+msgid "Set the default font that will be used for footer text."
+msgstr ""
+
+#: nimbus/options_arr.php:1014
+msgid "Set the default text for the copyright."
+msgstr ""
+
+#: nimbus/options_arr.php:1022
+msgid "Odds and Ends"
+msgstr ""
+
+#: nimbus/options_arr.php:1026
+msgid "Search Field"
+msgstr ""
+
+#: nimbus/options_arr.php:1027
+msgid "Set the default font that will be used in the search field."
+msgstr ""
+
+#: nimbus/options_arr.php:1040
+msgid "Font for [nimbus_typography_one] Shortcode "
+msgstr ""
+
+#: nimbus/options_arr.php:1041
+msgid ""
+"Set the font that will be used for the [nimbus_typography_one] alternate "
+"typography shortcode."
+msgstr ""
+
+#: nimbus/options_arr.php:1047
+msgid "Font for [nimbus_typography_two] Shortcode "
+msgstr ""
+
+#: nimbus/options_arr.php:1048
+msgid ""
+"Set the font that will be used for the [nimbus_typography_two] alternate "
+"typography shortcode."
+msgstr ""
+
+#: nimbus/options_arr.php:1054
+msgid "Font for [nimbus_typography_three] Shortcode "
+msgstr ""
+
+#: nimbus/options_arr.php:1055
+msgid ""
+"Set the font that will be used for the [nimbus_typography_three] alternate "
+"typography shortcode."
+msgstr ""
+
+#: nimbus/options_arr.php:1061
+msgid "Button Shortcodes"
+msgstr ""
+
+#: nimbus/options_arr.php:1062
+msgid "Set the font that will be used for all button shortcodes."
+msgstr ""
+
+#: nimbus/options_arr.php:1077
+msgid "Social Media"
+msgstr ""
+
+#: nimbus/options_arr.php:1086
+msgid "Social Media Options"
+msgstr ""
+
+#: nimbus/options_arr.php:1090
+msgid "Facebook Page URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1091
+msgid ""
+"Full URL for your Facebook page. Like: https://www.facebook.com/profile.php?"
+"id=1138181505 "
+msgstr ""
+
+#: nimbus/options_arr.php:1097
+msgid "Twitter Page URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1098
+msgid ""
+"Full URL for your Twitter page. Like: http://twitter.com/#!/nimbusthemes "
+msgstr ""
+
+#: nimbus/options_arr.php:1104
+msgid "LinkedIn Page URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1105
+msgid ""
+"Full URL to your LinkedIn page. Like: http://www.linkedin.com/profile/view?"
+"id=41331545"
+msgstr ""
+
+#: nimbus/options_arr.php:1111
+msgid "YouTube Page URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1112
+msgid "Enter the URL for your YouTube page. Leave blank to dispay none."
+msgstr ""
+
+#: nimbus/options_arr.php:1118
+msgid "Google+ Page URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1119
+msgid ""
+"Full URL to your Google+ page. Like: https://plus.google."
+"com/113799555397172215948#113799555397172215948/posts"
+msgstr ""
+
+#: nimbus/options_arr.php:1125
+msgid "Vimeo Channel URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1126
+msgid "Full URL to your Vimeo Channel"
+msgstr ""
+
+#: nimbus/options_arr.php:1132
+msgid "Flickr Web Address URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1133
+msgid "Full URL to your Flickr Page"
+msgstr ""
+
+#: nimbus/options_arr.php:1139
+msgid "WordPress.com Blog URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1140
+msgid "Full URL to your WordPress.com blog"
+msgstr ""
+
+#: nimbus/options_arr.php:1146
+msgid "Pinterest Board URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1147
+msgid "Full URL to your Pinterest Board"
+msgstr ""
+
+#: nimbus/options_arr.php:1153
+msgid "Amazon URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1154
+msgid "Full URL to your Amazon public profile or wishlist"
+msgstr ""
+
+#: nimbus/options_arr.php:1160
+msgid "Instagram URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1161
+msgid "Full URL to your Instagram public profile"
+msgstr ""
+
+#: nimbus/options_arr.php:1167
+msgid "Tumblr URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1168
+msgid "Full URL to your Tumblr public profile"
+msgstr ""
+
+#: nimbus/options_arr.php:1174
+msgid "Email Contact"
+msgstr ""
+
+#: nimbus/options_arr.php:1175
+msgid "Email address you would like to have visitors contact you through"
+msgstr ""
+
+#: nimbus/options_arr.php:1181
+msgid "Alternate RSS URL"
+msgstr ""
+
+#: nimbus/options_arr.php:1182
+msgid ""
+"Enter an alternate rss url if using one other than the default for WordPress"
+msgstr ""
+
+#: nimbus/options_arr.php:1188
+msgid "Hide RSS Feed Button"
+msgstr ""
+
+#: nimbus/options_arr.php:1189
+msgid "Check here to hide the RSS Feed icon in the social media icon section"
+msgstr ""
+
+#: nimbus/options_arr.php:1196
+msgid "Display Social Media Buttons"
+msgstr ""
+
+#: nimbus/options_arr.php:1197
+msgid "Check here to display social media buttons in the sidebar"
+msgstr ""
+
+#: nimbus/options_arr.php:1206
+msgid "Social Media Buttons Section Title"
+msgstr ""
+
+#: nimbus/options_arr.php:1207
+msgid ""
+"Enter the title you would like to have displayed above the social media "
+"buttons on the sidebar"
+msgstr ""
+
+#: nimbus/options_arr.php:1223
+msgid "Scripts"
+msgstr ""
+
+#: nimbus/options_arr.php:1232
+msgid "Scrips Options"
+msgstr ""
+
+#: nimbus/options_arr.php:1236
+msgid "Include Site-wide JS Libraries "
+msgstr ""
+
+#: nimbus/options_arr.php:1237
+msgid ""
+"Select the JS libraries you would like to have included in the <strong>head</"
+"strong> section of your site on all pages and posts. Jquery and jQuery UI "
+"are automatically included. (* indicates it is hosted by Google)."
+msgstr ""
+
+#: nimbus/options_arr.php:1244
+msgid "Add Scripts to Head"
+msgstr ""
+
+#: nimbus/options_arr.php:1245
+msgid ""
+"Add any scripts you would like to add just before the closing &lt;/head&gt; "
+"tag."
+msgstr ""
+
+#: nimbus/options_arr.php:1252
+msgid "Add Scripts to Top of Content"
+msgstr ""
+
+#: nimbus/options_arr.php:1253
+msgid ""
+"Add any scripts you would like to add just before start of the content on "
+"post/pages."
+msgstr ""
+
+#: nimbus/options_arr.php:1260
+msgid "Include Top of Content Scripts"
+msgstr ""
+
+#: nimbus/options_arr.php:1261 nimbus/options_arr.php:1277
+msgid ""
+"Select the content types where you would like to include the scripts from "
+"the text area above."
+msgstr ""
+
+#: nimbus/options_arr.php:1268
+msgid "Add Scripts to Bottom of Content"
+msgstr ""
+
+#: nimbus/options_arr.php:1269
+msgid ""
+"Add any scripts you would like to add directly after the content on post/"
+"pages."
+msgstr ""
+
+#: nimbus/options_arr.php:1276
+msgid "Include Bottom of Content Scripts"
+msgstr ""
+
+#: nimbus/options_arr.php:1284
+msgid "Add Scripts to Footer"
+msgstr ""
+
+#: nimbus/options_arr.php:1285
+msgid ""
+"Add any scripts you would like to add just before the closing &lt;/body&gt; "
+"tag."
+msgstr ""
+
+#: nimbus/options_arr.php:1301 nimbus/options_arr.php:1314
+msgid "Custom CSS"
+msgstr ""
+
+#: nimbus/options_arr.php:1310
+msgid "Custom CSS Options"
+msgstr ""
+
+#: nimbus/options_arr.php:1315 nimbus/options_arr.php:1322
+#: nimbus/options_arr.php:1329 nimbus/options_arr.php:1336
+#: nimbus/options_arr.php:1343
+msgid "Add your custom CSS to the header."
+msgstr ""
+
+#: nimbus/options_arr.php:1321
+msgid "Responsive CSS: Browsers Less Than 767px"
+msgstr ""
+
+#: nimbus/options_arr.php:1328
+msgid "Responsive CSS: Browsers Between 768px and 979px"
+msgstr ""
+
+#: nimbus/options_arr.php:1335
+msgid "Responsive CSS: Browsers Between 980px and 1200px"
+msgstr ""
+
+#: nimbus/options_arr.php:1342
+msgid "Responsive CSS: Browsers Larger Than 1200px"
+msgstr ""
+
+#: nimbus/options_arr.php:1388
+msgid "White"
+msgstr ""
+
+#: nimbus/options_arr.php:1389
+msgid "Dark Blue"
+msgstr ""
+
+#: nimbus/options_arr.php:1390
+msgid "Green"
+msgstr ""
+
+#: nimbus/options_arr.php:1391
+msgid "Light Blue"
+msgstr ""
+
+#: nimbus/options_arr.php:1392
+msgid "Orange"
+msgstr ""
+
+#: nimbus/options_arr.php:1393
+msgid "Red"
+msgstr ""
+
+#: nimbus/options_arr.php:1418 nimbus/options_arr.php:1480
+msgid "Post Title"
+msgstr ""
+
+#: nimbus/options_arr.php:1419 nimbus/options_arr.php:1426
+msgid "Categories"
+msgstr ""
+
+#: nimbus/options_arr.php:1420 nimbus/options_arr.php:1427
+msgid "Tags"
+msgstr ""
+
+#: nimbus/options_arr.php:1437
+msgid "Solid"
+msgstr ""
+
+#: nimbus/options_arr.php:1438
+msgid "Double"
+msgstr ""
+
+#: nimbus/options_arr.php:1439
+msgid "Grooved"
+msgstr ""
+
+#: nimbus/options_arr.php:1440
+msgid "Dotted"
+msgstr ""
+
+#: nimbus/options_arr.php:1441
+msgid "Inset"
+msgstr ""
+
+#: nimbus/options_arr.php:1442
+msgid "Outset"
+msgstr ""
+
+#: nimbus/options_arr.php:1443
+msgid "Ridged"
+msgstr ""
+
+#: nimbus/options_arr.php:1444
+msgid "Dashed"
+msgstr ""
+
+#: nimbus/options_arr.php:1454
+msgid "Random"
+msgstr ""
+
+#: nimbus/options_arr.php:1455
+msgid "Fade"
+msgstr ""
+
+#: nimbus/options_arr.php:1456
+msgid "Slice Down"
+msgstr ""
+
+#: nimbus/options_arr.php:1457
+msgid "Slice Down Left"
+msgstr ""
+
+#: nimbus/options_arr.php:1458
+msgid "Slice Up"
+msgstr ""
+
+#: nimbus/options_arr.php:1459
+msgid "Slice Up Left"
+msgstr ""
+
+#: nimbus/options_arr.php:1460
+msgid "Slice Up Down"
+msgstr ""
+
+#: nimbus/options_arr.php:1461
+msgid "Slice Up Down Left"
+msgstr ""
+
+#: nimbus/options_arr.php:1462
+msgid "Fold"
+msgstr ""
+
+#: nimbus/options_arr.php:1463
+msgid "Slide In Right"
+msgstr ""
+
+#: nimbus/options_arr.php:1464
+msgid "Box Random"
+msgstr ""
+
+#: nimbus/options_arr.php:1465
+msgid "Box Rain"
+msgstr ""
+
+#: nimbus/options_arr.php:1466
+msgid "Box Rain Reverse"
+msgstr ""
+
+#: nimbus/options_arr.php:1467
+msgid "Box Rain Grow Reverse"
+msgstr ""
+
+#: nimbus/options_arr.php:1477
+msgid "Post Title | Site Title"
+msgstr ""
+
+#: nimbus/options_arr.php:1478
+msgid "Site Title | Post Title"
+msgstr ""
+
+#: nimbus/options_arr.php:1479
+msgid "Site Title"
+msgstr ""
+
+#: nimbus/options_arr.php:1490
+msgid "Normal"
+msgstr ""
+
+#: nimbus/options_arr.php:1491
+msgid "Capitalize"
+msgstr ""
+
+#: nimbus/options_arr.php:1492
+msgid "Uppercase"
+msgstr ""
+
+#: nimbus/options_arr.php:1493
+msgid "Lowercase"
+msgstr ""
+
+#: nimbus/options_arr.php:1522
+msgid "200 (light)"
+msgstr ""
+
+#: nimbus/options_arr.php:1523
+msgid "200 (light) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1524
+msgid "300 (book)"
+msgstr ""
+
+#: nimbus/options_arr.php:1525
+msgid "300 (book) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1526
+msgid "400 (normal)"
+msgstr ""
+
+#: nimbus/options_arr.php:1527
+msgid "400 (normal) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1528
+msgid "500 (semi-bold)"
+msgstr ""
+
+#: nimbus/options_arr.php:1529
+msgid "500 (semi-bold) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1530
+msgid "600(bold)"
+msgstr ""
+
+#: nimbus/options_arr.php:1531
+msgid "600(bold) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1532
+msgid "700 (bolder)"
+msgstr ""
+
+#: nimbus/options_arr.php:1533
+msgid "700 (bolder) Italic"
+msgstr ""
+
+#: nimbus/options_arr.php:1534
+msgid "800(extra-bold)"
+msgstr ""
+
+#: nimbus/options_arr.php:1535
+msgid "800(extra-bold) Italic"
+msgstr ""
+
+#: parts/blog-featured.php:9
+msgid "Read more..."
+msgstr ""
+
+#: parts/blog-meta_line.php:3
+msgid "By "
+msgstr ""
+
+#: parts/blog-meta_line.php:5
+msgid " on "
+msgstr ""
+
+#: parts/blog-pagination.php:10
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: parts/blog-pagination.php:13
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: parts/blog-single_post_nav.php:7
+msgid "&laquo;"
+msgstr ""
+
+#: parts/blog-single_post_nav.php:16
+msgid "&raquo;"
+msgstr ""
+
+#: parts/blog-tax.php:10
+msgid "Posted in: "
+msgstr ""
+
+#: parts/error-no_results.php:1
+msgid "No content matched your request."
+msgstr ""
+
+#: parts/example-blog_small_content.php:5
+msgid "Example Post"
+msgstr ""
+
+#: parts/frontpage-content.php:16
+msgid "Welcome to the Simple Theme"
+msgstr ""
+
+#: parts/frontpage-content.php:40
+msgid ""
+"To get the most out of this theme you will want to set a static frontpage. "
+"You can do this by logging into your WordPress Dashboard >> Settings >> "
+"Reading, and selecting the option for a static page. Be sure to choose a "
+"Front Page option and a Posts Page option before you save."
+msgstr ""
+
+#: parts/frontpage-content.php:41
+msgid ""
+"If you would prefer to use the \"Your Latest Posts\" option that's fine "
+"also. You can turn off this content row in the Simple Theme options panel. "
+"Just log into your WordPress Dashbaord and look for the link to the Options "
+"Panel in the left side menu. Navigate to the Frontpage tab and look for the "
+"section titled Display Content Position. Select the option Don't Display "
+"Content and save your changes."
+msgstr ""
+
+#: parts/title-archive.php:16
+msgid "Viewing: "
+msgstr ""
+
+#: parts/wp_link_pages.php:3
+msgid "Pages:"
+msgstr ""
