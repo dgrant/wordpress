@@ -102,7 +102,7 @@
 		{{/if}}
 		{{if loc}}
 			{{if user}}in {{/if}}
-			<img src="http://www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
+			<img src="//www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
 			<a href="http://maps.google.com/maps?q=${loc.lat},${loc.lon}&z=6" target="_blank">{{if loc.city}}${loc.city}, {{/if}}${loc.countryName}</a>
 		{{else}}
 			An unknown location at IP <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
@@ -110,7 +110,7 @@
 		visited
 		<a href="${URL}" target="_blank">${URL}</a>
 	</div>
-	<div clas="wfPerfLine">
+	<div class="wfPerfLine">
 		<span class="wfTimeAgo">${timeAgo} ago</span>&nbsp;&nbsp; <strong>IP:</strong> <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
 	</div>
 	{{if browser && browser.browser != 'Default Browser'}}<div class="wfPerfLine"><strong>Browser:</strong> ${browser.browser}{{if browser.version}} version ${browser.version}{{/if}}{{if browser.platform && browser.platform != 'unknown'}} running on ${browser.platform}{{/if}}</div>{{/if}}

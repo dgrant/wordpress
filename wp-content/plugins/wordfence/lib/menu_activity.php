@@ -70,7 +70,7 @@
 <tr><td>
 	<div>
 		{{if loc}}
-			<img src="http://www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
+			<img src="//www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
 			<a href="http://maps.google.com/maps?q=${loc.lat},${loc.lon}&z=6" target="_blank">{{if loc.city}}${loc.city}, {{/if}}${loc.countryName}</a>
 		{{else}}
 			An unknown location at IP <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
@@ -88,7 +88,7 @@
 		<span class="wfReverseLookup"><span style="display:none;">${elem.IP}</span></span>
 	</div>
 	<div>
-		<span class="wfTimeAgo">Last hit was ${elem.timeAgo} ago.</span>
+		<span class="wfTimeAgo wfTimeAgo-timestamp" data-timestamp="${elem.timestamp}">Last hit was ${elem.timeAgo} ago.</span>
 	</div>
 </td>
 <td style="font-size: 28px; color: #999;">
@@ -105,7 +105,7 @@
 <div class="wfActEvent" id="wfActEvent_${id}">
 	<div>
 		{{if loc}}
-			<img src="http://www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
+			<img src="//www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
 			<a href="http://maps.google.com/maps?q=${loc.lat},${loc.lon}&z=6" target="_blank">{{if loc.city}}${loc.city}, {{/if}}${loc.countryName}</a>
 		{{else}}
 			An unknown location at IP ${IP}
@@ -132,7 +132,7 @@
 		<span class="wfReverseLookup"><span style="display:none;">${IP}</span></span>
 	</div>
 	<div>
-		<span class="wfTimeAgo">${timeAgo} ago</span>
+		<span class="wfTimeAgo wfTimeAgo-timestamp">${timeAgo} ago</span>
 	</div>
 </div>
 </div>
@@ -149,7 +149,7 @@
 	{{/if}}
 	{{if loc}}
 		{{if user}}in {{/if}}
-		<img src="http://www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
+		<img src="//www.wordfence.com/images/flags/${loc.countryCode.toLowerCase()}.png" width="16" height="11" alt="${loc.countryName}" title="${loc.countryName}" class="wfFlag" />
 		<a href="http://maps.google.com/maps?q=${loc.lat},${loc.lon}&z=6" target="_blank">{{if loc.city}}${loc.city}, {{/if}}${loc.countryName}</a>
 	{{else}}
 		An unknown location at IP <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
@@ -168,9 +168,11 @@
 	{{/if}}
 <a href="${URL}" target="_blank">${URL}</a>
 </td></tr>
-<tr><td><span class="wfTimeAgo">${timeAgo} ago</span>&nbsp;&nbsp; <strong>IP:</strong> <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
+<tr><td><span class="wfTimeAgo wfTimeAgo-timestamp">${timeAgo} ago</span>&nbsp;&nbsp; <strong>IP:</strong> <a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">${IP}</a>
 	{{if blocked}}
 		[<a href="#" onclick="WFAD.unblockIP('${IP}'); return false;">unblock</a>]
+	{{else rangeBlocked}}
+		[<a href="#" onclick="WFAD.unblockNetwork('${ipRangeID}'); return false;">unblock this range</a>]
 	{{else}}
 		[<a href="#" onclick="WFAD.blockIP('${IP}', 'Manual block by administrator'); return false;">block</a>]
 	{{/if}}
@@ -181,6 +183,8 @@
 <tr><td>
 {{if blocked}}
 [<a href="#" onclick="WFAD.unblockIP('${IP}'); return false;">Unblock this IP</a>]
+{{else rangeBlocked}}
+[<a href="#" onclick="WFAD.unblockNetwork('${ipRangeID}'); return false;">Unblock this range</a>]
 {{else}}
 [<a href="#" onclick="WFAD.blockIP('${IP}', 'Manual block by administrator'); return false;">Block this IP</a>]
 {{/if}}
@@ -189,7 +193,7 @@
 &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
 [<a href="admin.php?page=WordfenceWhois&whoisval=${IP}">Run WHOIS on ${IP}</a>]
 &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
-[<a href="#">See recent traffic</a>] 
+[<a href="${WFAD.makeIPTrafLink(IP)}" target="_blank">See recent traffic</a>]
 <tr><td></td></tr>
 </table>
 </div>
